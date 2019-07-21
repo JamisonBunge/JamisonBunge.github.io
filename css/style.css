@@ -1,0 +1,215 @@
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    /* background: #f4f4f4; */
+}
+
+.clr {
+    clear:both;
+}
+body {
+    margin:0;
+    background: #98c1d9;
+
+}
+#main-header {
+     background-image:url('../Website/images/back.jpg');
+     /* background: linear-gradient(#004092, #020202, transparent), url("../Website/images/back.jpg") no-repeat center; */
+     background-position: center right;
+    min-height: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Impact;
+    background-size: cover;
+
+}
+
+#main-header h1 {
+
+    font-size: 100px;
+    font-weight: 0px;
+    color: #98c1d9;
+    text-shadow: -3px 0 #ee6c4d, 0 3px black, 1px 0 black, 0 -3px black;
+    /* padding-top:20%; */
+    margin-bottom: 0;
+
+}
+#main-header h3 {
+
+    font-size: 30px;
+    font-weight: 0px;
+    color: #98c1d9;
+    text-shadow: -1px 0 rgb(194, 159, 159), 0 3px black, 1px 0 black, 0 -1px black;
+    /* padding-top:20%; */
+    margin-bottom: 0;
+}
+#main-header li{
+    display: inline;
+    padding-right:20px;
+    padding-left:20px;
+
+}
+#main-header i {
+    color:#ee6c4d;
+}
+#main-header i:hover {
+    color:#1CB8E3;
+}
+#main-wrapper {
+    /* border: solid #000;
+    border-width: 2px 2px; */
+    box-sizing: border-box;
+    position: relative;
+    display:block;
+    padding:20% 0%;
+}
+
+#main-projects {
+
+}
+#main-projects h1 {
+    font-size: 60px;
+    font-weight: 60;
+    color: #ee6c4d;
+    text-shadow: -1px 0 rgb(194, 159, 159), 0 3px black, 1px 0 black, 0 -1px black;
+    font-family: Impact;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top:20px;
+
+}
+
+#main-projects h2 {
+    font-size: 40px;
+    color: #293241;
+    font-weight: 60;
+    font-family: Impact;
+    margin-bottom: 0;
+    text-align: center;
+    margin: 30px 0;
+    padding-top:10px;
+
+}
+#card-wrapper {
+    float:right;
+    width:100%;
+    margin: 0 auto;
+}
+
+.card img {
+   width:auto;
+   left:0;
+   right:0;
+   margin-right:auto;
+   margin-left:auto;
+   position: absolute;
+   top: 10%;
+   max-height: 50%
+}
+
+.card h3 {
+    position: absolute;
+    text-align: center;
+    font-family: Courier;
+    width:100%;
+    font-size:40px;
+    padding: 0;
+    margin:0;
+    margin-top:10px;
+
+}
+
+.card p {
+    top:60%;
+    position: absolute;
+    padding: 0 10px;
+    font-family: Helvetica;
+    color: #293241;
+}
+.card input {
+    position: absolute;
+    text-align: center;
+}
+
+
+
+/* .center {
+    background:red;
+    width:100%;
+    color:red;
+    position: relative;
+    left:0px;
+    border: solid green;
+    border-width: 5px 5px;
+    right:0px;
+    align-content: center;
+    text-align: center;
+
+} */
+
+
+.card {
+    float: right;
+    font-family: Impact;
+    font-weight: 0;
+
+    position: relative;
+    background:#f4f4f4;
+    min-width:300px;
+    overflow: hidden;
+    height:600px;
+    width:30%;
+    border: solid #293241;
+    border-width: 5px 5px;
+    border-radius: 10px;
+    box-sizing:border-box;
+    margin: 0 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+#main-footer{
+    background: #293241;
+    color: #fff;
+    text-align: center;
+    padding:20px;
+    margin-top:40px
+}
+
+.button-first {
+    position: absolute;
+    top:90%;
+    width:30%;
+    background-color: #293241;
+    right:2%;
+    color:#fff;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border:none;
+}
+.button-second {
+    position: absolute;
+    top:90%;
+    width:30%;
+    background-color: #293241;
+    right:35%;
+
+    color:#fff;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border:none;
+}
+.button-third {
+    position: absolute;
+    top:90%;
+    width:30%;
+    background-color: #293241;
+    left:2%;
+    color:#fff;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border:none;
+}
+
+.button-third:hover,.button-first:hover,.button-second:hover {
+    background: #ee6c4d;
+}
