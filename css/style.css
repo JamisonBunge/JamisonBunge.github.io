@@ -14,7 +14,7 @@ body {
 
 }
 #main-header {
-     background-image:url('../Website/images/back.jpg');
+     background-image:url('/assets/Background.jpg');
      /* background: linear-gradient(#004092, #020202, transparent), url("../Website/images/back.jpg") no-repeat center; */
      background-position: center right;
     min-height: 300px;
