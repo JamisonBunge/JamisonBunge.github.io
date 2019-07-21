@@ -2,7 +2,13 @@
     width: 90%;
     margin: auto;
     overflow: hidden;
-    /* background: #f4f4f4; */
+    /* background: #f4f4f4;
+    background-color: #E288A0;
+    background-color: rgba(255,255,255,0.5); */
+
+    /* border: 7px solid #B71F45; */
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .clr {
@@ -65,16 +71,13 @@ body {
     padding:20% 0%;
 }
 
-#main-projects {
-
-}
 #main-projects h1 {
     font-size: 60px;
     font-weight: 60;
     color: #ee6c4d;
     text-shadow: -1px 0 rgb(194, 159, 159), 0 3px black, 1px 0 black, 0 -1px black;
     font-family: Impact;
-    margin-bottom: 0;
+    margin-bottom: 1em;
     text-align: center;
     margin-top:20px;
 
@@ -91,11 +94,20 @@ body {
     padding-top:10px;
 
 }
-#card-wrapper {
-    float:right;
+.card-wrapper {
+    float: right;
+    position: relative;
+    left: -50%; /* or right 50% */
+    text-align: left;
+    display: flex;
+    justify-content: center;;
     width:100%;
     margin: 0 auto;
+    background: red;
+    border-width: 5px;
 }
+
+
 
 .card img {
    width:auto;
@@ -149,12 +161,10 @@ body {
 } */
 
 
-.card {
-    float: right;
+    .card {
     font-family: Impact;
     font-weight: 0;
 
-    position: relative;
     background:#f4f4f4;
     min-width:300px;
     overflow: hidden;
@@ -164,8 +174,11 @@ body {
     border-width: 5px 5px;
     border-radius: 10px;
     box-sizing:border-box;
-    margin: 0 1%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    left: 50%;
+}
 
 #main-footer{
     background: #293241;
@@ -176,6 +189,7 @@ body {
 }
 
 .button-first {
+
     position: absolute;
     top:90%;
     width:30%;
@@ -185,6 +199,8 @@ body {
     padding-top: 10px;
     padding-bottom:10px;
     border:none;
+
+
 }
 .button-second {
     position: absolute;
@@ -208,8 +224,101 @@ body {
     padding-top: 10px;
     padding-bottom:10px;
     border:none;
+
 }
 
 .button-third:hover,.button-first:hover,.button-second:hover {
     background: #ee6c4d;
 }
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:10px 0;
+}
+
+.newCard ul li {
+    float: left;
+    list-style-type: none;
+    margin: 0 6px;
+  }
+
+.newCard {
+    font-family: Impact;
+    font-weight: 0;
+    background:#f4f4f4;
+    min-width:300px;
+    overflow: hidden;
+    height:600px;
+    width:30%;
+    margin: 0 .5em;
+    border: solid #293241;
+    border-width: 5px 5px;
+    border-radius: 10px;
+    box-sizing:border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    position: relative;
+    display: inline-block;
+
+}
+
+.new-wrapper {
+    float: right;
+    /* background:green;; */
+    position: relative;
+    width:100%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.newCard img {
+    width:auto;
+    left:0;
+    right:0;
+    margin-right:auto;
+    margin-left:auto;
+    position: absolute;
+    top: 10%;
+    max-height: 50%
+ }
+
+ .newCard h3 {
+     position: absolute;
+     text-align: center;
+
+     width:100%;
+     font-size:40px;
+     padding: 0;
+     margin:0;
+     margin-top:10px;
+
+
+     font-size: 40px;
+     color: #293241;
+     font-weight: 60;
+     font-family: Impact;
+     margin-bottom: 0;
+
+     /* margin: 30px 0;
+     padding-top:10px; */
+
+
+
+
+
+
+ }
+
+ .newCard p {
+     top:60%;
+     position: absolute;
+     padding: 0 10px;
+     font-family: Helvetica;
+     color: #293241;
+ }
+ .newCard input {
+     position: absolute;
+     text-align: center;
+ }
